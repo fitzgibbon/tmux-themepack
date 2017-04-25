@@ -16,7 +16,7 @@ set -g status-right-bg black
 set -g status-right-fg cyan
 set -g status-right-length 40
 #set -g status-right "#H #[fg=white]« #[fg=red]CPU#{cpu_icon} #{cpu_percentage}CPU#[fg=white]« #[fg=brightred]#{battery_status_bg} #{battery_icon} #{battery_percentage} #{battery_remain}#[fg=white]« #[fg=red]XXX#[fg=white]« #[fg=red]XXX#[fg=white]« #[fg=yellow]%H:%M:%S #[fg=green]%d-%b-%y"
-set -g status-riight "#{cpu_percentage}"
+set -g status-riight "hello #{cpu_percentage} hello"
 
 # Window status
 set -g window-status-format " #I:#W#F "
